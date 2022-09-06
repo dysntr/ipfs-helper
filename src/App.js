@@ -46,7 +46,7 @@ const App = () => {
       <header className="App-header">IPFS Helper</header>
 
       <div className="main">
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={uploadFile}>
           <input type="file" onChange={retrieveFile} />
           <button type="submit" className="button">
             Submit
